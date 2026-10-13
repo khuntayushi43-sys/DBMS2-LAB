@@ -1,5 +1,4 @@
---user cant access account table before 9 AM and after
-10 Pm
+--user cant access account table before 9 AM and after 10 Pm
 create or replace trigger trig_time
 before insert or update or delete on account
 for each row
